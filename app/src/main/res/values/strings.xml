@@ -1,3 +1,26 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+
     <string name="app_name">Just Java</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="topping">TOPPINGS</string>
+    <string name="order">ORDER</string>
+    <string name="orderSummary">ORDER SUMMARY</string>
+    <string name="whippedCreame">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="namehint">Name</string>
+    <string name="noCoffee">Sorry, you can\'t have less than one cup.</string>
+    <string name="toomanyCoffee">Sorry, you can\'t order more than 100 cups.</string>
+    <string name="initial_quantity_value">2</string>
+
+    <!-- order summary -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Jane Doe"> </xliff:g></string>
+    <string name="order_summary_whipped_cream">Added WhippedCream?  <xliff:g id="addWhippedCream" example="true"> </xliff:g></string>
+    <string name="order_summary_chocolate">Added Chocolate ? <xliff:g id="addChocolate" example="true"> </xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2"> </xliff:g></string>
+    <string name="order_summary_price" translatable="false">Total: <xliff:g id="price" example="$10">%s</xliff:g></string>
+    <string name="thank_you">Thank You!</string>
+    <string name="order_summary_email_subject">Coffee order for <xliff:g id="name" example="Jane">  </xliff:g> </string>
+
+
 </resources>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Just Java</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="namehint">Nombre</string>
+    <string name="noCoffee">No puedes ordenar menos de una taza.</string>
+    <string name="order">ORDERNAR</string>
+    <string name="orderSummary">RESUMEN DE ORDEN</string>
+    <string name="quantity">CANTIDA</string>
+    <string name="toomanyCoffee">No puedes ordenar mas de 100 tazas.</string>
+    <string name="topping">Ingredientes</string>
+    <string name="whippedCreame">Crema batida</string>
+    <string name="initial_quantity_value">2</string>
+    <string name="order_summary_chocolate">Agrego Chocolate ? <xliff:g id="addChocolate" example="true"></xliff:g></string>
+    <string name="order_summary_email_subject">Orden de café para  <xliff:g id="name" example="Jane"> </xliff:g></string>
+    <string name="order_summary_name">Nombre: <xliff:g id="name" example="Jane Doe"> </xliff:g></string>
+    <string name="order_summary_quantity">Cantidad: <xliff:g id="quantity" example="2"> </xliff:g></string>
+    <string name="order_summary_whipped_cream">Agrego Crema Batida <xliff:g id="addWhippedCream" example="true"> </xliff:g></string>
+    <string name="thank_you">Gracias!</string>
+</resources>
